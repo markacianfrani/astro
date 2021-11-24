@@ -25,7 +25,16 @@ jobs:
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+      - name: Build
+        run: npm run build
       - name: Bump
         run: "npx lerna version --yes --conventional-commits --message 'chore(release): publish'"
       - name: Publish
         run: npx lerna publish from-package --yes
+      - name: Netlify Deploy
+        uses: jsmrcaga/action-netlify-deploy@v1.1.0
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PROD_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_PROD_SITE }}
+          NETLIFY_DEPLOY_TO_PROD: true
+          build_directory: "/packages/astro-uxds/_site"
