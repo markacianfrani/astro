@@ -8,5 +8,22 @@
     "@astrouxds/react": "6.1.0",
     "@astrouxds/astro-web-components": "6.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "cuddly-ears-wonder",
+    "curvy-pans-develop",
+    "early-beans-shake",
+    "little-poems-stare",
+    "lucky-ears-try",
+    "mighty-years-jump",
+    "nine-owls-burn",
+    "orange-buttons-kneel",
+    "pretty-fans-fail",
+    "purple-lemons-lie",
+    "rude-chicken-mate",
+    "short-items-joke",
+    "silly-pans-pull",
+    "swift-rice-search",
+    "tiny-rules-lie",
+    "witty-dolls-cover"
+  ]
 }
