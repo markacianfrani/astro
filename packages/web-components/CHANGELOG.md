@@ -1,5 +1,11 @@
 # @astrouxds/astro-web-components
 
+## 0.0.0-timeline-alpha.0-20220208201012
+
+### Major Changes
+
+-   21d1d00f: alpha draft of Timeline component
+
 ## 6.1.0
 
 ### Minor Changes
