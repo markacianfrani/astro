@@ -5,16 +5,19 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type                  | Default |
-| -------- | --------- | ----------- | --------------------- | ------- |
-| `track`  | `track`   | the id      | `number \| undefined` | `0`     |
+| Property  | Attribute | Description | Type                  | Default |
+| --------- | --------- | ----------- | --------------------- | ------- |
+| `columns` | `columns` |             | `number`              | `0`     |
+| `track`   | `track`   |             | `number \| undefined` | `0`     |
+| `width`   | `width`   |             | `number`              | `0`     |
 
 
 ## Shadow Parts
 
-| Part     | Description |
-| -------- | ----------- |
-| `"cell"` |             |
+| Part          | Description |
+| ------------- | ----------- |
+| `"cell"`      |             |
+| `"container"` |             |
 
 
 ----------------------------------------------

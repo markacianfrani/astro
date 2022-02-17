@@ -5,15 +5,16 @@
 
 ## Properties
 
-| Property        | Attribute        | Description    | Type                  | Default     |
-| --------------- | ---------------- | -------------- | --------------------- | ----------- |
-| `end`           | `end`            | The end time   | `any`                 | `undefined` |
-| `interval`      | `interval`       |                | `string`              | `'hour'`    |
-| `label`         | `label`          | The label      | `string \| undefined` | `undefined` |
-| `ratio`         | `ratio`          |                | `number`              | `2`         |
-| `start`         | `start`          | The start time | `any`                 | `undefined` |
-| `timelineStart` | `timeline-start` |                | `any`                 | `undefined` |
-| `track`         | `track`          | The track      | `string`              | `'1'`       |
+| Property        | Attribute        | Description                                 | Type                  | Default     |
+| --------------- | ---------------- | ------------------------------------------- | --------------------- | ----------- |
+| `end`           | `end`            | The end time                                | `any`                 | `undefined` |
+| `hideTimestamp` | `hide-timestamp` | Optionally hide the bottom right timestamp. | `boolean`             | `false`     |
+| `interval`      | `interval`       |                                             | `string`              | `'hour'`    |
+| `label`         | `label`          | The label                                   | `string \| undefined` | `undefined` |
+| `ratio`         | `ratio`          |                                             | `number`              | `2`         |
+| `start`         | `start`          | The start time                              | `any`                 | `undefined` |
+| `timelineStart` | `timeline-start` |                                             | `any`                 | `undefined` |
+| `track`         | `track`          | The track                                   | `string`              | `'1'`       |
 
 
 ## Shadow Parts

@@ -1,5 +1,11 @@
 # @astrouxds/astro-web-components
 
+## 0.0.0-timeline-alpha.1-20220217190349
+
+### Minor Changes
+
+-   add vertical scrollbar support
+
 ## 6.1.0
 
 ### Minor Changes
