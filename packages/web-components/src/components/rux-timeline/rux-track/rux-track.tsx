@@ -16,7 +16,6 @@ export class RuxTrack {
 
     connectedCallback() {
         this._handleSlotChange = this._handleSlotChange.bind(this)
-        this._getScrollWidth()
     }
 
     componentWillLoad() {
@@ -24,14 +23,6 @@ export class RuxTrack {
         // this._getScrollWidth()
 
         const timeline = this.el.closest('rux-timeline')
-        // const children = this.el.shadowRoot?.children;
-        // if(children) {
-        //     const trackDiv = children[1];
-        //     this.trackScrollWidth = trackDiv.scrollWidth - 200;
-        // }
-        // this.getScrollWidth().then((track) => {
-        //     this.trackScrollWidth = track!.scrollWidth;
-        // })
 
         timeline?.fetchColumns().then((r) => {
             this.timelineColumns = r
@@ -51,7 +42,7 @@ export class RuxTrack {
     //     this._getScrollWidth()
     //     console.log(this.trackScrollWidth, 'Scroll width in will update')
     // }
-    componentWillUpdate() {
+    componentDidUpdate() {
         this._getScrollWidth()
         console.log(this.trackScrollWidth, 'Scroll width in DID update')
     }
