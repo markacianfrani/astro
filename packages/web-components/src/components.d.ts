@@ -7179,7 +7179,7 @@ export namespace Components {
     }
     interface RuxTrack {
         columns: number
-        track?: number
+        track?: number | undefined
         width: number
     }
     interface RuxTree {}
@@ -23298,7 +23298,7 @@ declare namespace LocalJSX {
     }
     interface RuxTrack {
         columns?: number
-        track?: number
+        track?: number | undefined
         width?: number
     }
     interface RuxTree {}

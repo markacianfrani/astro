@@ -4,11 +4,19 @@
 .rux-track {
     background: var(--color-surface);
     width: fit-content;
-    border-bottom: 2px solid var(--color-background);
+    // border-bottom: 2px solid var(--color-background);
 }
 
+.border {
+    // width: 100vw;
+    // height: 20px;
+    // width: 1050px;
+    border-bottom: 2px solid var(--color-background);
+}
 .rux-track__header {
     box-sizing: border-box;
+    border-bottom: 2px solid var(--color-background);
+
     padding: 11px 8px 13px 8px;
     background: var(--color-surface);
     border-right: 2px solid var(--color-background);
