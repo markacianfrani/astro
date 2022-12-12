@@ -54,7 +54,7 @@
     }
 
     &--default {
-        background: red;
+        background: blue;
         &:hover:not([disabled]) {
             border-color: transparent;
             background-color: var(--color-background-interactive-hover);
