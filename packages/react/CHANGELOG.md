@@ -1,5 +1,13 @@
 # @astrouxds/react
 
+## 7.4.1
+
+### Patch Changes
+
+- 0bf4ad8b: Tabs - Fixed issue where tabs were not displaying correctly when being dynamically added and removed
+- Updated dependencies [0bf4ad8b]
+  - @astrouxds/astro-web-components@7.4.1
+
 ## 7.4.0
 
 ### Minor Changes

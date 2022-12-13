@@ -1,5 +1,11 @@
 # @astrouxds/astro-web-components
 
+## 7.4.1
+
+### Patch Changes
+
+-   0bf4ad8b: Tabs - Fixed issue where tabs were not displaying correctly when being dynamically added and removed
+
 ## 7.4.0
 
 ### Minor Changes
